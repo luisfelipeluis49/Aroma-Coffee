@@ -89,7 +89,8 @@
 
         button
         {
-            margin-top: 2rem;
+            position: fixed;
+            bottom: 5rem;
 
             padding: 1rem 2rem;
 
@@ -109,7 +110,8 @@
     {
         position: fixed;
 
-        font-size: 30vw;
+        font-size: 30vh;
+        max-font-size: 20rem;
         color: #8D5B33;
     }
 
