@@ -1,11 +1,10 @@
 <script>
-    import { backIn, backOut, circIn, circInOut, circOut, cubicInOut, quadIn, quartIn, quintIn, quintOut, sineIn } from "svelte/easing";
-
 
     // -- IMPORTS
 
     import Header from "./components/Header.svelte";
-    import { fade, fly, blur, scale, draw, crossfade, slide } from "svelte/transition";
+    import { fly } from "svelte/transition";
+    import { circInOut } from "svelte/easing";
 
     // -- VARIABLES
 
@@ -119,6 +118,11 @@
         color: #363234;
     }
 </style>
+
+<svelte:head>
+    <title>Aroma Coffee</title>
+    <link rel="icon" href="https://aroma-coffee.vercel.app/images/favicon.icon">
+</svelte:head>
 
 <article class:milk={ drink === 'milk' }>
     <Header />
