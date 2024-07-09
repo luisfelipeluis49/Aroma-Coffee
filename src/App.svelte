@@ -44,6 +44,7 @@
     {
         width: 100%;
         height: 93vh;
+        min-height: 600px;
         margin-top: 7vh;
 
         display: flex;
@@ -90,16 +91,18 @@
         button
         {
             position: fixed;
-            bottom: 5rem;
+            bottom: 5vh;
 
-            padding: 1rem 2rem;
+            min-width: 20vw;
+            padding: 0.5rem 1rem;
 
-            font-size: 1.5rem;
+            font-size: 1.2rem;
+            font-weight: bold;
             color: #333;
 
             background-color: transparent;
 
-            border: 2px solid #333;
+            border: 1px solid #333;
             border-radius: 1rem;
 
             cursor: pointer;
