@@ -121,7 +121,7 @@
 
 <svelte:head>
     <title>Aroma Coffee</title>
-    <link rel="icon" href="https://aroma-coffee.vercel.app/images/favicon.icon">
+    <link rel="icon" href="https://aroma-coffee.vercel.app/images/favicon.ico">
 </svelte:head>
 
 <article class:milk={ drink === 'milk' }>
