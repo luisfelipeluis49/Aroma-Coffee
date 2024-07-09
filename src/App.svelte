@@ -69,7 +69,7 @@
             height: 25rem;
             width: 20rem;
 
-            background-image: url("images/can.svg");
+            background-image: url("https://aroma-coffee.vercel.app/images/can.svg");
             background-repeat: no-repeat;
             background-position: center;
 
